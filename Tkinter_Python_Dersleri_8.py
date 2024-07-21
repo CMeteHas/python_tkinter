@@ -6,7 +6,7 @@ form.title("Mete'nin Denemeleri-8")
 label=tk.Label(text="Geometrik Yöneticiler",fg="blue",bg="red")
 label.pack(side=tk.LEFT,fill=tk.Y)
 buton=tk.Button(text="Pack()",fg="blue",bg="red")
-buton.pack(expand=1,anchor="se")
+buton.pack(ipadx=50,ipady=80)
 
 
 
